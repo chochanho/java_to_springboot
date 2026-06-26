@@ -1,6 +1,6 @@
 package oop1;
 
-public class MusicPlayer {
+     class MusicPlayerMain {
     static void main() {
          int volume =0;
          boolean isOn = false;

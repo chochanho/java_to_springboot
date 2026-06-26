@@ -1,0 +1,18 @@
+package Construct;
+
+import java.lang.reflect.Member;
+
+public class MethodInitMain2 {
+    static void main() {
+        MemberConstruct member1 = new MemberConstruct("user1", 15, 90);
+        MemberConstruct member2 = new MemberConstruct("user2", 16);
+
+        MemberConstruct[] members = {member1, member2};
+
+
+        for(MemberConstruct s: members){
+            System.out.println("이름은:"+s.name+" 나이는:"+s.age+" 성적:"+s.grade);
+        }
+
+    }
+}
